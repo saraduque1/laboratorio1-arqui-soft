@@ -1,0 +1,32 @@
+:root {
+	--border-color: #ccc;
+	--box-shadow-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .flights-container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	padding: 20px;
+	gap: 20px;
+  }
+  
+  .flight-card-container {
+	margin: 10px;
+	padding: 20px 0px;
+	border: 1px solid var(--border-color);
+	max-width: 90%;
+	border-radius: 8px;
+	transition: transform 0.3s;
+  }
+  
+  .flight-card {
+	margin: 10px;
+	display: inline-block;
+  }
+  
+  .no-flights-message {
+	font-size: 16px;
+  }
+  

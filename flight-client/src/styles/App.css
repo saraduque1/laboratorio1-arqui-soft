@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar-item {
+  float: left;
+}
+
+.navbar-text {
+  display: block;
+  color: #fff; /* White text color for better visibility */
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.navbar-text:hover {
+  background-color: #555;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+  color: #ffd700; /* Change text color on hover for higher contrast */
+}

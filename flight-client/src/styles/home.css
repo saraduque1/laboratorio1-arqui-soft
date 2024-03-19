@@ -1,0 +1,21 @@
+.home-container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  .title {
+	font-size: 2em;
+	color: #333;
+  }
+  
+  .welcome-message {
+	margin-top: 20px;
+	font-size: 1.2em;
+	color: #555;
+  }
+  
+  .welcome-message strong {
+	color: #333;
+  }
